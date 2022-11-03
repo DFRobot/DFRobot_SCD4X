@@ -47,7 +47,7 @@ void setup(void)
    * @n T(SCD4X): the temperature measured by the sensor (wait for a period of time to get steady readings)
    * @n T(reference): the standard reference value of the current ambient temperature
    * @n T(offset_previous): the previously set temperature offset
-   * @n 例如 : 32(T(SCD4X)) - 30(T(reference)) + 2(T(offset_previous)) = 4(T(offset_actual))
+   * @n For example : 32(T(SCD4X)) - 30(T(reference)) + 2(T(offset_previous)) = 4(T(offset_actual))
    * @param tempComp - temperature offset value, unit ℃
    * @return None
    * @note When executing the command, the sensor can't be in period measurement mode
