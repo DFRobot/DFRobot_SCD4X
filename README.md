@@ -288,6 +288,7 @@ Micro:bit          |      √       |              |             |
 ## History
 
 - 2022/05/11 - Version 1.0.0 released.
+- 2022/12/13 - Version 1.0.1 released.
 
 
 ## Credits

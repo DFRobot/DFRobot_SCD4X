@@ -85,22 +85,6 @@ void setup(void)
   Serial.println(" m");
 
   /**
-   * @brief perform forced recalibration
-   * @param CO2ppm - Target CO2 concentration, unit ppm
-   * @return Calibration amplitude, return (int16_t)0x7fff if the calibration failed
-   * @note Command execution time : 400 ms
-   * @n When executing the command, the sensor can't be in period measurement mode
-   */
-  // int16_t amplitudeOfCalibration = SCD4X.performForcedRecalibration(400);
-  // if(0x7fff == amplitudeOfCalibration) {
-  //   Serial.println("Calibration failure!");
-  // } else {
-  //   Serial.print("Amplitude of calibration : ");
-  //   Serial.print(amplitudeOfCalibration);
-  //   Serial.println(" ppm");
-  // }
-
-  /**
    * @brief set automatic self calibration enabled
    * @param mode - automatic self-calibration mode:
    * @n       true : enable automatic self-calibration

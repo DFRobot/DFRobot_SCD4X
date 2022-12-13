@@ -44,16 +44,6 @@ def setup():
   sensor.enable_period_measure(SCD4X_STOP_PERIODIC_MEASURE)
 
   '''!
-    @brief perform factory reset
-    @details The perform_factory_reset command resets all configuration settings stored 
-    @n  in the EEPROM and erases the FRC and ASC algorithm history.
-    @return None
-    @note Command execution time : 1200 ms
-    @n When executing the command, the sensor can't be in period measurement mode
-  '''
-  # sensor.perform_factory_reset
-
-  '''!
     @brief perform self test
     @details The perform_self_test feature can be used as an end-of-line test to check sensor 
     @n  functionality and the customer power supply to the sensor.

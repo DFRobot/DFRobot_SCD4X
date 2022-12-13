@@ -78,19 +78,6 @@ def setup():
   print("Set the current environment altitude : %u m" %(sensor.get_sensor_altitude))
 
   '''!
-    @brief perform forced recalibration
-    @param CO2ppm - Target CO2 concentration, unit ppm
-    @return Calibration amplitude, return (int16_t)0x7fff if the calibration failed
-    @note Command execution time : 400 ms
-    @n When executing the command, the sensor can't be in period measurement mode
-  '''
-  # amplitude_of_calibration = sensor.perform_forced_recalibration(400)
-  # if(0x7FFF == amplitude_of_calibration):
-  #   print("Calibration failure!")
-  # else:
-  #   print("Amplitude of calibration : %d ppm" %(amplitude_of_calibration))
-
-  '''!
     @brief set automatic self calibration enabled
     @param mode - automatic self-calibration mode:
     @n       True : enable automatic self-calibration

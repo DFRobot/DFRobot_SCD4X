@@ -288,6 +288,7 @@ python3 period_measure.py
 ## History
 
 - 2022/05/13 - Version 1.0.0 released.
+- 2022/12/13 - Version 1.0.1 released.
 
 
 ## Credits
