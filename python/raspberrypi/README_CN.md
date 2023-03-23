@@ -6,10 +6,10 @@ SCD4x(SCD40/SCD41)是传感公司的下一代微型二氧化碳传感器。该�
 二氧化碳是室内空气质量的一个关键指标，因为高水平的二氧化碳会损害人类的认知能力和福祉。SCD4x智能通风系统能够以最节能和最人性化的方式调节通风。此外，室内空气质量监测仪等连接设备基于
 SCD4x可以帮助在健康、高效的环境中保持低二氧化碳浓度。
 
-![产品实物图](../../resources/images/SCD4X.png)
+![产品实物图](../../resources/images/SCD41.png)
 
 
-## 产品链接 (https://www.dfrobot.com.cn/search.php?keywords=SCD4X)
+## 产品链接 (https://www.dfrobot.com.cn/goods-3645.html)
     SKU: SEN0536
 
 

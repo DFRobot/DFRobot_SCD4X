@@ -19,10 +19,10 @@ monitors and other connected devices based on the
 SCD4x can help maintaining low CO2 concentration for a 
 healthy, productive environment.
 
-![产品实物图](../../resources/images/SCD4X.png)
+![产品实物图](../../resources/images/SCD41.png)
 
 
-## Product Link (https://www.dfrobot.com/search-SCD4X.html)
+## Product Link (https://www.dfrobot.com/product-2646.html)
     SKU: SEN0536
 
 
