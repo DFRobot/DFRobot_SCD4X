@@ -204,16 +204,6 @@ SCD4x(SCD40/SCD41)是传感公司的下一代微型二氧化碳传感器。该�
   void setAmbientPressure(uint32_t ambientPressure);
 
   /**
-   * @fn performForcedRecalibration
-   * @brief 执行强制校准
-   * @param CO2ppm - 目标二氧化碳浓度，单位ppm
-   * @return 校准的幅度, 校准失败返回(int16_t)0x7fff
-   * @note 命令执行时间 : 400 ms
-   * @n 执行此功能时，传感器不能处于周期测量模式
-   */
-  int16_t performForcedRecalibration(uint16_t CO2ppm);
-
-  /**
    * @fn setAutoCalibMode
    * @brief 设置自动自校准模式
    * @param mode - 自动校准模式:

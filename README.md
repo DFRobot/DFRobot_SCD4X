@@ -225,16 +225,6 @@ There two methods:
   void setAmbientPressure(uint32_t ambientPressure);
 
   /**
-   * @fn performForcedRecalibration
-   * @brief perform forced recalibration
-   * @param CO2ppm - Target CO2 concentration, unit ppm
-   * @return calibration amplitude, return (int16_t)0x7fff if the calibration failed
-   * @note Command execution time : 400 ms
-   * @n When executing the command, the sensor can't be in period measurement mode
-   */
-  int16_t performForcedRecalibration(uint16_t CO2ppm);
-
-  /**
    * @fn setAutoCalibMode
    * @brief set automatic self calibration enabled
    * @param mode - automatic self-calibration mode:

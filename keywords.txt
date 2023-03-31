@@ -26,7 +26,6 @@ getTempComp	KEYWORD2
 setSensorAltitude	KEYWORD2
 getSensorAltitude	KEYWORD2
 setAmbientPressure	KEYWORD2
-performForcedRecalibration	KEYWORD2
 setAutoCalibMode	KEYWORD2
 getAutoCalibMode	KEYWORD2
 persistSettings	KEYWORD2
